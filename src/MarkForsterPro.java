@@ -75,10 +75,7 @@ public class MarkForsterPro extends Primspieler {
                     if (besteZuegeLv2.size() > 0) {
 
                     }
-                 */
-
-                }
-
+                 }*/
 
             }
         }

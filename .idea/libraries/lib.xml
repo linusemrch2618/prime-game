@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/pg2022-engine.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pg2022-specification.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pg2022-reference-players.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/pg2022-trainer.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
