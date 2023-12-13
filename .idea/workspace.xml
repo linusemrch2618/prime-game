@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9d1241a-f50b-4821-a493-201976d2aaea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MarkForsterPro2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkForsterProTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MarkForsterProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkForsterProMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/AbstractPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/AbstractReferencePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/BlackMambaDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/CompetitionPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/PolytechnicCompetitionPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Primspielertest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primspielertest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +37,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="recentNewPullRequestHead">
       <RepoCoordinatesHolder>
@@ -70,9 +76,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "dev",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/linusemmerich/Documents/IntelliJ/prime-game",
+    "last_opened_file_path": "/home/linusemmerich/Documents/IntelliJ/prime-game/src",
     "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -80,6 +86,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
