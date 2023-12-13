@@ -1,5 +1,8 @@
-import java.util.*;
-public class MarkForsterPro extends Primspieler {
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class MarkForsterPro2 extends Primspieler {
     public static class Zug implements Comparable<Zug> {
         private final int index;
         private final int zahl;
