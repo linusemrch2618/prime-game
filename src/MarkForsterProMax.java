@@ -56,7 +56,7 @@ public class MarkForsterProMax extends Primspieler {
         while (it.hasNext()) {
             Zug z = it.next();
             int[] gegnerFeld = getNeuesFeld(feld, z);
-            int anzahlZuege = Math.max(10, (int)(feld.length * 0.1D));
+            int anzahlZuege = Math.max(1, (int)(feld.length * 0.1D));
             TreeSet<Zug> besteZuegeGegner = getBesteZuege(gegnerFeld, anzahlZuege);
             if (!besteZuegeGegner.isEmpty()) {
                 int score = z.gewinn - getBesterZugGegner(besteZuegeGegner, gegnerFeld).gewinn;
@@ -108,7 +108,7 @@ public class MarkForsterProMax extends Primspieler {
     }
 
     public String getPlayerName() {
-        return "Mark Forster Pro Plus Max Ultra 5G V2.0"; // Bitte anpassen!
+        return "Mark.Forster.PRO"; // Plus Max Ultra 5G V2.0"; // Bitte anpassen!
     }
 
     public long getStudentNumber() {

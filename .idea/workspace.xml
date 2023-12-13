@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9d1241a-f50b-4821-a493-201976d2aaea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MarkForsterProMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prime-game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/prime-game.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MarkForsterPro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkForsterPro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MarkForsterPro2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkForsterProTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MarkForsterProMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MarkForsterProMax.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Primspielertest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primspielertest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,18 +24,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
   }
-}</component>
+}]]></component>
   <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="linusemrch2618" />
+        <option name="repository" value="prime-game" />
+      </RepoCoordinatesHolder>
+    </option>
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="56a1d2ea-dabb-40ff-b82a-1e11095c2256" />
-        <option name="url" value="git@github.com:linusemrch2618/prime-game.git" />
+        <option name="accountId" value="f827ceca-8229-4f6f-8acd-3a88c463c571" />
+        <option name="url" value="https://github.com/linusemrch2618/prime-game.git" />
       </UrlAndAccount>
     </option>
   </component>
@@ -61,7 +70,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/home/linusemmerich/Documents/IntelliJ/prime-game",
     "project.structure.last.edited": "Libraries",
@@ -70,6 +79,11 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Primspielertest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Primspielertest" />
@@ -80,6 +94,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Primspielertest" />
+        <item itemvalue="Application.Primspielertest" />
+        <item itemvalue="Application.Primspielertest" />
+        <item itemvalue="Application.Primspielertest" />
         <item itemvalue="Application.Primspielertest" />
       </list>
     </recent_temporary>
@@ -100,9 +118,31 @@
       <option name="presentableId" value="Default" />
       <updated>1671879233805</updated>
     </task>
+    <task id="LOCAL-00001" summary="add several versions for testing purposes">
+      <option name="closed" value="true" />
+      <created>1702503148615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702503148615</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add several versions for testing purposes" />
+    <option name="LAST_COMMIT_MESSAGE" value="add several versions for testing purposes" />
   </component>
 </project>
