@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.TreeSet;
 
-public class MarkForsterPro2 extends Primspieler {
+public class MarkForsterProTest extends Primspieler {
     public static class Zug implements Comparable<Zug> {
         private final int index;
         private final int zahl;
@@ -21,7 +21,7 @@ public class MarkForsterPro2 extends Primspieler {
 
 
     public int auswahl(int[] feld) {
-        int anzahlZuege = Math.max(100, (int)(feld.length * 0.1D));
+        int anzahlZuege = Math.max(7, (int)(feld.length * 0.01D));
         TreeSet<Zug> besteZuege = getBesteZuege(feld, anzahlZuege);
 
         return getBesterZug(besteZuege, feld).zahl;
@@ -89,7 +89,7 @@ public class MarkForsterPro2 extends Primspieler {
     }
 
     public String getPlayerName() {
-        return "Mark Forster Pro"; // Bitte anpassen!
+        return "Mark Forster Pro Test"; // Bitte anpassen!
     }
 
     public long getStudentNumber() {

@@ -123,7 +123,7 @@ public class Primspielertest implements Logging {
         int bPoints = 0;
 
         // home round
-        message("Playing match 1 of 2:");
+        //message("Playing match 1 of 2:");
         Player winner = playMatch(playerA, playerB);
         if (winner == playerA) {
             aPoints += 3;
@@ -135,7 +135,7 @@ public class Primspielertest implements Logging {
         }
 
         // guest round
-        message("\nPlaying match 2 of 2:");
+        //message("\nPlaying match 2 of 2:");
         winner = playMatch(playerB, playerA);
         if (winner == playerA) {
             aPoints += 3;
@@ -149,7 +149,7 @@ public class Primspielertest implements Logging {
 
         // final points
         message("");
-        message("FINAL MATCH POINTS: ");
+        //message("FINAL MATCH POINTS: ");
         message("  " + playerA.getPlayerName() + ": " + aPoints);
         message("  " + playerB.getPlayerName() + ": " + bPoints);
         message("");
@@ -196,10 +196,10 @@ public class Primspielertest implements Logging {
         }
 
         if (PrimeGame.EVENT_BOARD.equals(e)) {
-            message("Board is set up with numbers up to " + ((Set<Integer>) evt.getNewValue()).size());
+            //message("Board is set up with numbers up to " + ((Set<Integer>) evt.getNewValue()).size());
 
         } else if (PrimeGame.EVENT_GAME_OVER.equals(e)) {
-            message("Game Over. Player \"" + pg.getWinner().getPlayerName() + "\" won the game!");
+            //message("Game Over. Player \"" + pg.getWinner().getPlayerName() + "\" won the game!");
             message("Final Score: " + pg.getHomePlayer().getPlayerName() + " " + pg.getHomeScore() + ":"
                     + pg.getGuestScore() + " " + pg.getGuestPlayer().getPlayerName());
 
@@ -212,26 +212,26 @@ public class Primspielertest implements Logging {
             //scoreChanger = pg.specialRule2021(s.getScore());            
             // end of THM 
             
-            if (scoreChanger < 0)
+            /*if (scoreChanger < 0)
                 message("Player \"" + s.getPlayer().getPlayerName() + "\" made a move, took " + s.getScore() + " and gets only " + (s.getScore()+scoreChanger));
             else if (scoreChanger > 0)
                 message("Player \"" + s.getPlayer().getPlayerName() + "\" made a move, took " + s.getScore() + " and gets additional " + scoreChanger);
             else            
-                message("Player \"" + s.getPlayer().getPlayerName() + "\" made a move and took " + s.getScore());
+                message("Player \"" + s.getPlayer().getPlayerName() + "\" made a move and took " + s.getScore());*/
 
         } else if (PrimeGame.EVENT_SCORE_DETAILS.equals(e)) {
             Player p = (Player) evt.getOldValue();
             Integer[] divisors = (Integer[]) evt.getNewValue();
-            if (divisors != null && divisors.length > 0) {
+            /*if (divisors != null && divisors.length > 0) {
                 message("Player \"" + p.getPlayerName() + "\" gets " + arrayToString(divisors));
             } else {
                 message("Player \"" + p.getPlayerName() + "\" gets nothing.");
-            }
+            }*/
 
         } else if (PrimeGame.EVENT_STOP_WATCH.equals(e)) {
             Player p = (Player) evt.getOldValue();
             Long t = (Long) evt.getNewValue();
-            message("Player \"" + p.getPlayerName() + "\" used " + t + " ms. for the move.");
+            //message("Player \"" + p.getPlayerName() + "\" used " + t + " ms. for the move.");
         }
     }
 
@@ -293,24 +293,24 @@ public class Primspielertest implements Logging {
         if  ((args.length == 1 && "-i".equalsIgnoreCase(args[0])) || (args.length == 0)) {
             // interactive mode
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            System.out.println("Player A (Home): ");
-            System.out.flush();
+            //System.out.println("Player A (Home): ");
+            //System.out.flush();
             String home;
             try {
-                home = "MarkForsterPro";//br.readLine();
-                System.out.println("Player B (Guest): ");
-                System.out.flush();
+                home = "na.edu.pon.primegame.player.reference.ReferencePlayer6";//br.readLine();
+                //System.out.println("Player B (Guest): ");
+                //System.out.flush();
                 String guest = "MarkForsterProMax"; //"na.edu.pon.primegame.player.reference.ReferencePlayer4"; //br.readLine();
                 trainer = new Primspielertest(home, guest);
             } catch (Exception e) {
                 e.printStackTrace(System.err);
                 System.exit(1);
             }
-            System.out.println("Board size (empty string for default = "+BOARD_SIZE+"): ");
-            System.out.flush();
+            //System.out.println("Board size (empty string for default = "+BOARD_SIZE+"): ");
+            //System.out.flush();
             String size;
             try {
-                size = "2";//br.readLine();
+                size = "100";//br.readLine();
                 BOARD_SIZE = Integer.parseInt(size);
             } catch (Exception e) {
                 System.out.println("Board size set to default = "+BOARD_SIZE+".");
