@@ -1,5 +1,5 @@
 import java.util.*;
-public class MarkForsterPro extends Primspieler {
+public class MarkForsterProMax extends Primspieler {
     public static class Zug implements Comparable<Zug> {
         private final int index;
         private final int zahl;
@@ -18,7 +18,7 @@ public class MarkForsterPro extends Primspieler {
 
 
     public int auswahl(int[] feld) {
-        int anzahlZuege = Math.max(100, (int)(feld.length * 0.1D));
+        int anzahlZuege = Math.max(10, (int)(feld.length * 0.1D));
         TreeSet<Zug> besteZuege = getBesteZuege(feld, anzahlZuege);
 
         return getBesterZug(besteZuege, feld).zahl;
@@ -56,9 +56,10 @@ public class MarkForsterPro extends Primspieler {
         while (it.hasNext()) {
             Zug z = it.next();
             int[] gegnerFeld = getNeuesFeld(feld, z);
-            TreeSet<Zug> besteZuegeGegner = getBesteZuege(gegnerFeld, 1);
+            int anzahlZuege = Math.max(10, (int)(feld.length * 0.1D));
+            TreeSet<Zug> besteZuegeGegner = getBesteZuege(gegnerFeld, anzahlZuege);
             if (!besteZuegeGegner.isEmpty()) {
-                int score = z.gewinn - besteZuegeGegner.getFirst().gewinn;
+                int score = z.gewinn - getBesterZugGegner(besteZuegeGegner, gegnerFeld).gewinn;
                 if (score > maxScore) {
                     besterZug = z;
                     maxScore = score;
@@ -67,6 +68,27 @@ public class MarkForsterPro extends Primspieler {
         }
 
         return besterZug;
+    }
+
+    public Zug getBesterZugGegner(TreeSet<Zug> besteZuegeGegner, int[] feld) {
+        Iterator<Zug> itGegner = besteZuegeGegner.iterator();
+        int maxScoreGegner = Integer.MIN_VALUE;
+        Zug besterZugGegner = besteZuegeGegner.getFirst();
+        while (itGegner.hasNext()) {
+            Zug z = itGegner.next();
+            int[] gegnerFeld = getNeuesFeld(feld, z);
+            TreeSet<Zug> besteZuegeLv2 = getBesteZuege(gegnerFeld, 1);
+            if (!besteZuegeLv2.isEmpty()) {
+                int score = z.gewinn - besteZuegeLv2.getFirst().gewinn;
+                if (score > maxScoreGegner) {
+                    besterZugGegner = z;
+                    maxScoreGegner = score;
+                }
+
+            }
+        }
+
+        return besterZugGegner;
     }
 
     public int[] getNeuesFeld(int[] feld, Zug z) {
@@ -86,7 +108,7 @@ public class MarkForsterPro extends Primspieler {
     }
 
     public String getPlayerName() {
-        return "Mark Forster Pro"; // Bitte anpassen!
+        return "Mark Forster Pro Plus Max Ultra 5G V2.0"; // Bitte anpassen!
     }
 
     public long getStudentNumber() {

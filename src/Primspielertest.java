@@ -300,7 +300,7 @@ public class Primspielertest implements Logging {
                 home = "MarkForsterPro";//br.readLine();
                 System.out.println("Player B (Guest): ");
                 System.out.flush();
-                String guest = "na.edu.pon.primegame.player.reference.ReferencePlayer4"; //br.readLine();
+                String guest = "MarkForsterProMax"; //"na.edu.pon.primegame.player.reference.ReferencePlayer4"; //br.readLine();
                 trainer = new Primspielertest(home, guest);
             } catch (Exception e) {
                 e.printStackTrace(System.err);
@@ -310,7 +310,7 @@ public class Primspielertest implements Logging {
             System.out.flush();
             String size;
             try {
-                size = "102";//br.readLine();
+                size = "2";//br.readLine();
                 BOARD_SIZE = Integer.parseInt(size);
             } catch (Exception e) {
                 System.out.println("Board size set to default = "+BOARD_SIZE+".");
