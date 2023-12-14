@@ -287,8 +287,8 @@ public class Primspielertest implements Logging {
      */
     public static void main(String[] args) {
         LoggingSupport.disableConsoleLogging();
-        System.out.println("Primspielertest 0.2 - Copyright (c) 2009,2010 by Manfred Meyer\n");
-        System.out.flush();
+        //System.out.println("Primspielertest 0.2 - Copyright (c) 2009,2010 by Manfred Meyer\n");
+        //System.out.flush();
         Primspielertest trainer = null;
         if  ((args.length == 1 && "-i".equalsIgnoreCase(args[0])) || (args.length == 0)) {
             // interactive mode
@@ -297,7 +297,7 @@ public class Primspielertest implements Logging {
             //System.out.flush();
             String home;
             try {
-                home = "ReferencePlayer6";//br.readLine();
+                home = "na.edu.pon.primegame.player.reference.ReferencePlayer5";//br.readLine();
                 //System.out.println("Player B (Guest): ");
                 //System.out.flush();
                 String guest = "MarkForsterProMax"; //"na.edu.pon.primegame.player.reference.ReferencePlayer4"; //br.readLine();

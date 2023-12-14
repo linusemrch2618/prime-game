@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9d1241a-f50b-4821-a493-201976d2aaea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/reference/AbstractPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/AbstractReferencePlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/BlackMambaDesk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/CompetitionPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/PolytechnicCompetitionPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reference/ReferencePlayer6.java" afterDir="false" />
+    <list default="true" id="a9d1241a-f50b-4821-a493-201976d2aaea" name="Changes" comment="add several versions for testing purposes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Primspielertest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Primspielertest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/AbstractPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/AbstractReferencePlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/BlackMambaDesk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/CompetitionPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/PolytechnicCompetitionPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/ReferencePlayer1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/ReferencePlayer2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/ReferencePlayer3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference/ReferencePlayer6.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,12 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/na/edu/pon/primegame/player/reference" />
+      <recent name="$PROJECT_DIR$/lib/pg2022-reference-players.jar!/na/edu/pon/primegame/player/reference" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="na.edu.pon.primegame.player.reference" />
       <recent name="" />
     </key>
   </component>
@@ -135,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702503148615</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add several versions for testing purposes">
+      <option name="closed" value="true" />
+      <created>1702506420892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702506420892</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
